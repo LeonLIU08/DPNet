@@ -2,8 +2,9 @@ Keras for DPNet
 ===============
 source code of DPNet paper
 
-File structure
-==============
+This project is writen by python2.7 and based on the Keras(2.1.4). The optical flow extractor is adopted from pyflow:
+
+https://github.com/pathak22/pyflow
 
 
 Running
