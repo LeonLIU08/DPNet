@@ -7,8 +7,8 @@ from keras.models import load_model, Model
 def parse_args():
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('--feature_maps', default='tmp/feaMap_s116_dpnet_dpnet22_SSIM.h5')
-    parser.add_argument('--model', default='model/LIVE_model_fullconv_gmsd{LCC_0.93599,SROCC_0.93310}{32_8}.h5',
+    parser.add_argument('--feature_maps', default='tmp/feaMap_tr2_GMSD.h5')
+    parser.add_argument('--model', default='model/LIVE_model_gmsd{32_8}.h5',
                         help="The path the trained model file.")
 
     parser.add_argument('--show_quality_changes', action='store_true',
